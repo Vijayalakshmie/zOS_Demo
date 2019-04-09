@@ -11,6 +11,7 @@
         77 VAR1  PIC    X(80).
         PROCEDURE DIVISION.
 	Begin.
+    		DISPLAY "Test Code "
     		DISPLAY "Enter lower case character or digit. No data ends.".
     		ACCEPT Char.
     		PERFORM UNTIL NOT ValidCharacter
